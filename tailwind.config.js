@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     colors:{
       primary: "#151515",
-      white:"#f2f2f2"
+      white:"#f9f9f9",
+      secondary:"#FFFFF",
+      red: "#ff4848"
     },
     screens: {
       'sm': '640px',
