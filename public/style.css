@@ -821,3 +821,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(242 242 242 / var(--tw-bg-opacity));
 }
+
+#delete{
+  margin-left: 40px;
+}
+#fav{
+  margin-left:28px;
+}
+
+.svgFav{
+  fill: #DACC3E;
+}
