@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const table = document.getElementById('table');
     const deleteBtn = document.getElementById('deleteBtn')
     let id = 1;
+    let tracks = []
 
     //CONST ADD MUSIC
     const link = document.getElementById('link');
@@ -68,8 +69,18 @@ document.addEventListener('DOMContentLoaded', function() {
    
     
       
+    const track = {
+      name: name.value,
+      link: link.value,
+      category: select.value,
+      id: row.id  
+    }
+
+
+    tracks = [...tracks,track]
+
     
-    
+    console.log(tracks)
  
 
     removeBtn.onclick = function (e){
